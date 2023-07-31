@@ -1,3 +1,33 @@
 <script>
-    console.log("Test");
+var string = "Manikanta";
+var string1 = "text to display top of";
+var string2 = "   XYZ   ";
+var string3 = "9283";
+var string4 = "You just want attention, you don't want my heart Maybe you just hate the thought of me with someone new Yeah, you just want attention, I knew from the start You're just making sure I'm never gettin over you";
+
+
+console.log(string.length);
+console.log(string.charAt(4),);
+console.log(string.slice(0,4));
+console.log(string.slice('-6'));
+console.log(string.replace("Manikanta","Kasarla"));
+console.log(string.replace("Manikanta","Kasarla").includes("K"));
+console.log(string.concat(" ",string1));
+console.log(string.substr(3,4));
+console.log(string.charCodeAt(8));
+console.log(string.endsWith("a"));
+console.log(string.startsWith("M"));
+console.log(string.repeat(10) );
+console.log("your OTP is ******",string.slice('-6'),"your OTP is ******",string.slice('3'));
+console.log(string1.indexOf("display"));
+console.log(string1.replaceAll("text to display top of","Mani"));
+console.log(string1.toUpperCase());
+console.log(string1.toLowerCase());
+console.log(string2.trim());
+console.log(string2.trimStart(),string2.trimEnd());
+console.log(string3.padStart(10,"*"));
+console.log(string3.padEnd(10,"*"));
+console.log("No of Words are : ",string4.split(" ").length);
+console.log("No of length:",string4.length);
+console.log(string4.split(" "));
 </script>

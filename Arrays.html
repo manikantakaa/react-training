@@ -1,0 +1,74 @@
+<script>
+  var frontEndFrameworks = [
+    "Angular",
+    "React",
+    "React Native",
+    "Vuejs",
+    "Nextjs",
+  ];
+  var alphabetsArray = ["A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K"];
+
+  console.log(frontEndFrameworks);
+  console.log(frontEndFrameworks[2]);
+  console.log("BEFORE ", alphabetsArray);
+  console.log("AFTER", alphabetsArray.reverse());
+  console.log(alphabetsArray.length);
+  console.log(alphabetsArray.join(""));
+
+  var emptyArray = [];
+  emptyArray.push("Mani");
+  emptyArray.push("Kanta");
+  console.log(emptyArray);
+
+  var arrayEmpty = [];
+  arrayEmpty.push("101", "Balaji Nagar", "Hyderabad");
+  arrayEmpty.push("50090", "TG", "India");
+//   arrayEmpty.push("Hyderbad");
+//   arrayEmpty.push("50090");
+//   arrayEmpty.push("TG");
+//   arrayEmpty.push("India");
+
+  console.log(arrayEmpty);
+  console.log(arrayEmpty.join(" "));
+  console.log(arrayEmpty.reverse());
+
+  var hno = ["101", "Balaji Nagar", "Hyderabad", "Bill"];
+  var pinCode = ["50090", "TG", "India", "Null"];
+  console.log(pinCode.pop());
+  console.log(pinCode.slice(0, 3));
+
+  var arrayCombine = hno.concat(pinCode);
+
+  console.log(arrayCombine);
+  console.log(arrayCombine.join(" "));
+  console.log(arrayCombine.sort());
+  console.log(arrayCombine.fill("Nehru Street",0,1));
+  console.log(arrayCombine.includes("50090"));
+  console.log(arrayCombine.indexOf("50090"));
+  
+
+  // from position wise
+
+  // console.log(array1.fill("Sravan",1,4))
+
+  // includes
+
+//   console.log(array1.includes("A"));
+
+  // indexOf
+
+//   console.log(array1.indexOf("A"));
+
+//   // pop
+//   console.log(array1.pop());
+
+//   // slice
+
+//   console.log(array1.slice(1, 3));
+
+  // sort()
+
+  var reactClassArray = ["Manikanta", "Sai", "Prakash", "Rushmitha", "Biswa"];
+
+  console.log(reactClassArray.sort());
+</script>
