@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Page Title</title>
+  </head>
+  <body>
+    <!-- <div style="display: inline-grid;">
+<label>First Name</label>
+<input type="text" value="firstName" />
+
+<label>Last Name</label>
+<input type="text" value="lastName"/>
+
+<label>Email</label>
+<input type="email" value="email"/>
+
+<label>Contact No</label>
+<input type="number" value="contact"/>
+
+<button type="submit" style="margin-top: 10px;" onclick="check()"> Submit </button>
+</div> -->
+
+    <script>
+      // legal age for vote
+
+      // var xAge = 28;
+      // var yAge = 22;
+      // var zAge = 12;
+
+      // if ( xAge >= 18 && yAge == 18 && zAge < 18){
+      //     console.log("Eligible for vote");
+      // } else {
+      //     console.log("Not Eligible for vote")
+      // }
+
+      // if ( xAge >= 18 && yAge == 18 || zAge < 18){
+      //     console.log("Eligible for vote");
+      // } else {
+      //     console.log("Not Eligible for vote");
+      // }
+
+      // legal age to apply driving license and voter id
+
+      // var drivingLicense = 18;
+      // var voterId = 21;
+      // var mAge = 17;
+      // if ((mAge >= drivingLicense)&&(mAge >= voterId)){
+      //     console.log("Eligible to apply");
+      // } else {
+      //     console.log("Not Eligible to apply")
+      // }
+
+      // if ((mAge <= drivingLicense) || (mAge === voterId)){
+      //     console.log("Eligible to apply");
+      // } else {
+      //     console.log("Not Eligible to apply")
+      // }
+
+      // Weekday Planner
+
+      // let mon = "Veg";
+      // let tues = "Veg";
+      // let wed = "Non-Veg";
+      // let thur = "Veg";
+      // let fri = "Veg";
+      // let sat = "Non-Veg";
+      // let sun = "Non-Veg";
+
+      // console.log(mon && tues && wed && thur && fri && sat && sun);
+
+      // if ( mon && tues && wed && thur && fri && sat && sun ){
+      //     console.log("perfect Week Plan");
+      // } else {
+      //     console.log("Not a perfect Week Plan");
+      // }
+
+      // if ( mon && tues && wed && !thur && fri && sat && sun ){
+      //     console.log("perfect Week Plan");
+      // } else {
+      //     console.log("Not a perfect Week Plan");
+      // }
+      // let x = true;
+      // let y = false;
+      // let z = true;
+      // let isFemale = false;
+      // if(isFemale){
+      // console.log("Girl");
+      // }
+      // if(!isFemale){
+      // console.log("Boy");
+      // }
+      // console.log( x && !y && z);
+
+      // else if statement
+
+      // var firstName = "Mani";
+      // var lastName = "kanta";
+      // var email = "mani@gmail.com";
+      // var contact = "123456789";
+
+      // function check() {
+
+      // if (firstName = "Mani"){
+      //     console.log("A");
+      // } else if(lastName){
+      //     console.log("B");
+      // } else if(email){
+      //     console.log("C");
+      // } else if(contact){
+      //     console.log("D");
+      // } else {
+      //     console.log("log off");
+      // }
+      // }
+
+      //   let myAge = 25;
+
+      //   if (myAge >= 30) {
+      //     console.log("A");
+      //   } else if (myAge === 30) {
+      //     console.log("B");
+      //   } else if (myAge <= 20) {
+      //     console.log("C");
+      //   } else if (myAge < 25) {
+      //     console.log("D");
+      //   } else if (myAge <= 25) {
+      //     console.log("E");
+      //   } else {
+      //     console.log("log off");
+      //   }
+
+      //   let food = "pizza";
+      //   switch (food) {
+      //       case "Burger":
+      //       console.log("your Evng Snack is Burger");
+      //       break;
+      //       case "Sandwich":
+      //       console.log("your Evng Snack is Sandwich");
+      //       break;
+      //       case "momos'":
+      //       console.log("your Evng Snack is momos");
+      //       break;
+      //       case "pizza":
+      //       console.log("your Evng Snack is pizza");
+      //       break;
+      //       case "springrolls":
+      //       console.log("your Evng Snack is springrolls");
+      //       break;
+      //       case "samosa":
+      //       console.log("your Evng Snack is samosa");
+      //       break;
+      //       case "pastry":
+      //       console.log("your Evng Snack is pastry");
+      //   }
+
+      // Int Variable
+
+      //   var a = 30;
+
+      // float variable
+
+      //   var b = 19.99;
+
+      //   console.log(typeof b);
+
+      // String ' '   or " "
+
+      //   var c = "20";
+
+      //   var d = "Sita";
+      //   var e = "Ram";
+
+      //   console.log(typeof c);
+
+      //   console.log(d + e);
+
+      //   var projector = 20890;
+      //   var pQty = 1;
+
+      //   var extendedWarranty = 690;
+      //   var eQty = 1;
+
+      //   var standPrice = 1980;
+      //   var sQty = 1;
+
+      //   let totalPrice =
+      //     projector * pQty + extendedWarranty * eQty + standPrice * sQty;
+
+      //   console.log("totalPrice", totalPrice);
+
+      /* console.log("Total Price : ",projector*pQty + extendedWarranty*eQty +standPrice*sQty)
+       */
+
+      //   if (totalPrice >= 20000) {
+      //     console.log("Eligible for Elite Membership");
+      //   } else if (totalPrice <= 20000 && totalPrice >= 10000) {
+      //     console.log("Eligible for Platinum Membership");
+      //   } else if (totalPrice <= 10000 && totalPrice >= 5000) {
+      //     console.log("Eligible for Gold Membership");
+      //   } else {
+      //     console.log("No Membership");
+      //   }
+
+      // COUPON100
+
+      //   var x = 2;
+
+      //   var y = "8";
+
+      //   console.log(x - y);
+
+      // "8" to number because subtraction operator always expects a numerical values
+
+      // 2-8
+
+      // -6
+      //   2 * 8;
+      //   console.log(x * y);
+
+      // Var
+
+      //   var fName = "Zeal";
+
+      //   var lName = "";
+
+      // Concatenation or Append
+
+      //   var fullName = fName + "" + lName;
+
+      // Length
+
+      //   console.log(fullName.length);
+
+      // example
+
+      //   if (fullName.length > 3) {
+      //     console.log("Full name atleast 3 characters");
+      //   } else {
+      //     console.log("Full name contains atleast 3 characters");
+      //   }
+
+      // count will start from 1
+
+      // position will take place from 0
+
+      // Z
+
+      //   console.log(fullName[0]);
+
+      // toUpperCase()
+
+      // toLowerCase()
+
+      //   var alphabets = "abcdefghijklmnopqrstuvwxyz";
+
+      //   let capitalAlphabets = alphabets.toUpperCase();
+
+      //   console.log(capitalAlphabets);
+
+      // console.log(capitalAlphabets.toLowerCase());
+
+      //   var generateCouponCode = Math.floor(Math.random() * 100000);
+      //   console.log(generateCouponCode);
+
+      var product = "Powerbank";
+      var capacity1 = 100;
+      var capacity2 = 200;
+      var price1 = 10000;
+      var price2 = 20000;
+      var qty = 2;
+      var discount1 = 40;
+      var discount2 = 50;
+
+      console.log("Product Name:", product);
+      console.log("Capacity:", capacity1, "Mah");
+      console.log("Price:", price1, "$");
+      console.log("Qty:", qty);
+      console.log("Discount:", discount1, "%");
+
+      var finalprice1 = (price1 - (price1 * discount1) / 100);
+
+      console.log("Finalprice :", finalprice1 * qty, "$");
+
+      console.log("Product Name:", product);
+      console.log("Capacity:", capacity2, "Mah");
+      console.log("Price:", price2, "$");
+      console.log("Qty:", qty);
+      console.log("Discount:", discount2, "%");
+
+      var finalprice2 = (price2 - (price2 * discount2) / 100);
+
+      console.log("Finalprice :", finalprice2 * qty, "$");
+
+      //Ticket discount
+
+      var toBanglore = 1000;
+      var toMumbai = 2000;
+      var travellers = 2;
+      var flatCouponCode = "FLAT30%";
+      var randomCouponCode = Math.floor((Math.random() * 25) + 5);
+
+    console.log('From hyderabd to Banglore:',toBanglore);
+    console.log('From hyderabd to Mumbai:',toMumbai);
+    console.log('Total Travellers:',travellers);
+    console.log('From hyderabd to Mumbai for 2 Travellers Total Amount:',toMumbai * travellers);
+    console.log('Get Flat Discount using our coupon code:',flatCouponCode,'Note: you will get discount in between 5% to 30%');
+    console.log('Discount you got after using coupon code:',randomCouponCode,'%');
+
+    var totalAmount = (toMumbai - (toMumbai * randomCouponCode / 100));
+
+    console.log('Final Amount:',totalAmount * travellers,'/-');
+
+
+
+    </script>
+  </body>
+</html>
